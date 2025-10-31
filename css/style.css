@@ -9,6 +9,8 @@
 @import url("components/list.css");
 @import url("components/banner.css");
 
+html { scroll-behavior: smooth; }
+
 /* General rules for fonts and colors */
 body {
   background-color: rgb(245,245,247);
