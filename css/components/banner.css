@@ -1,0 +1,12 @@
+.banner{
+  background-image: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85)), url("../../images/hero-quant.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  color: white;
+  text-align: center;
+}
+
+
+.banner h1 { color: white; font-size: 50px; margin: 10px 0 6px; }
+.banner h2 { color: white; font-size: 24px; font-weight: 300; opacity: 0.95; margin: 0 0 20px; }

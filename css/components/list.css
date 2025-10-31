@@ -1,0 +1,41 @@
+/* Inline list for icons or badges */
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+  margin: 14px 0 0;
+  font-size: 28px;
+}
+.list-inline > li { display: inline; padding: 0 12px; }
+.list-inline a { color: #6B72E1; }
+.list-inline a:hover { color: #000; }
+
+/* Badges style for use cases */
+.badges { font-size: 16px; }
+.badges li {
+  background: #F1F2FE;
+  color: #4952C4;
+  padding: 8px 12px;
+  border-radius: 999px;
+  margin: 6px 8px;
+}
+
+.list-features {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list-features li {
+  flex: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-icon {
+  font-size: 42px;
+  color: #6B72E1; /* prends la même couleur que ton btn ou ton brand */
+  margin-bottom: 12px;
+  display: block;
+}
