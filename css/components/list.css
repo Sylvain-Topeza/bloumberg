@@ -10,13 +10,27 @@
 .list-inline a:hover { color: #000; }
 
 /* Badges style for use cases */
-.badges { font-size: 16px; }
+.badges { 
+  font-size: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
 .badges li {
   background: #F1F2FE;
   color: #4952C4;
+  display: inline-flex;
+  align-items: center;
   padding: 8px 12px;
   border-radius: 999px;
   margin: 6px 8px;
+  white-space: nowrap;
+  line-height: 1;
+}
+
+.badges i {
+  margin-right: 8px;
 }
 
 .list-features {
@@ -25,7 +39,7 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-}
+}	
 
 .list-features li {
   flex: 1;
@@ -35,7 +49,13 @@
 
 .feature-icon {
   font-size: 42px;
-  color: #6B72E1; /* prends la même couleur que ton btn ou ton brand */
+  color: #6B72E1;
   margin-bottom: 12px;
   display: block;
+}
+
+@media (max-width: 720px) {
+  .list-inline.badges { gap: 8px; }
+  .list-inline.badges li { padding: 6px 10px; font-size: 14px; }
+  .list-inline.badges i { margin-right: 6px; }
 }
